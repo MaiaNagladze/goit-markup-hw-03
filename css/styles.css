@@ -1,0 +1,321 @@
+/*========= COMMET STYLES =========*/
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.container {
+  max-width: 1158px;
+  padding: 0 15px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  }
+  .image-container {
+    padding-bottom: 0;
+  }
+button {
+  cursor: pointer;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-style: inherit;
+  font-family: inherit;
+}
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+h2 {
+  text-align: center;
+  font-family: inherit;
+}
+h3 {
+  font-family: inherit;
+  color:inherit; 
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+ background-color: #ffffff;
+}
+/*========= /COMMET STYLES =========*/
+
+/*========= HEADER STYLES =======*/
+.page-header-line {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  border-bottom: 1px solid #FFFFFF;
+  }
+.page-nav{
+  display: flex;
+  column-gap: 76px;
+ }
+.page-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
+.logo-color {
+  color: #2e2f42;;
+}
+
+.manu{
+  display: flex;
+  column-gap: 40px;
+}
+.contacts-list{
+  display: flex; 
+  column-gap: 40px;
+}
+.manu-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.manu-link:hover,
+.manu-link:focus {
+  color: #404bbf;
+}
+.link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.link:hover, 
+.link:focus {
+  color: #404bbf;
+}
+.page-contacts {
+  font-style: normal;
+}
+/*========= /HEADER STYLES =======*/
+
+/*======== MAIN STYLES ======*/
+
+/*================ HERO SECTION ==========*/
+.hero {
+  background-color: #2e2f42;
+  height: 42%;
+}
+.container-hero{
+ padding-top: 68px;
+  padding-bottom: 68px;
+  }
+.title-hero {
+  max-width: 496px;
+  margin-left: auto;
+margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 48px;
+ 
+ }
+.order-service {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff; 
+  background: #4d5ae5;
+  max-width: 169px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 16px 32px; 
+ 
+}
+.order-service:hover,
+.order-service:focus {
+  background: #404bbf;
+}
+/*================ /HERO SECTION ==========*/
+
+/*================= OUR BENEFITS ==========*/
+.preference-list{
+  display: flex;
+  padding-top: 38px;
+  column-gap: 24px;
+  row-gap: 8px;
+}
+.preference-item {
+  width: ((100%-72px)/4);
+
+}
+.title-preference-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.text-preference-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*================= /OUR BENEFITS ==========*/
+
+/*============== OUR TEAM ============*/
+.workers {
+  background-color: #f4f4fd;
+}
+.title-workers {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  
+}
+.workers-list{
+  display: flex;
+  column-gap: 24px;
+}
+.workers-list-item {
+  background-color: #ffffff;
+  width: ((100%-72px)/4);
+}
+.name-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  row-gap: 8px;
+}
+.name {
+ font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+ 
+}
+.position {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+
+}
+/*============== /OUR TEAM ============*/
+
+/*============= PORTFOLIO ==============*/
+.title-offers {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.offers-list{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1158px;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.offers-service {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 16px;
+ }
+.offers-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+ margin-bottom: 32px;
+}
+
+.container-card {
+  border-left: 1px solid #E7E9FC;
+  border-right: 1px solid #E7E9FC;
+  border-bottom: 1px solid #E7E9FC;
+}
+
+/*============= /PORTFOLIO ==============*/
+
+/*======== /MAIN STYLES ======*/
+
+/*=========== PAGE FOOTER ==============*/
+.business {
+  background: #2e2f42;
+}
+.container-business{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 16px;
+}
+.logo-footer{
+  padding-top: 100px;
+ }
+.logo-color-footer {
+  color: #f4f4fd;
+}
+.text-footer {
+  max-width: 264px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+ padding-bottom: 100px;
+}
+/*=========== PAGE FOOTER ==============*/
