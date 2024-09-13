@@ -69,11 +69,14 @@ body {
 /*========= /COMMET STYLES =========*/
 
 /*========= HEADER STYLES =======*/
+
 .page-header-line {
   display: flex;
   justify-content: space-between;
   align-self: center;
-  border-bottom: 1px solid #e7e9fc;
+  }
+  .page-header{
+    border-bottom: 1px solid #E7E9FC;
   }
 .page-nav{
   display: flex;
@@ -140,11 +143,8 @@ body {
 .hero {
   background-color: #2e2f42;
   height: 42%;
+  padding: 188px 0;
 }
-.container-hero{
- padding-top: 188px;
-  padding-bottom: 188px;
-  }
 .title-hero {
   max-width: 496px;
   margin-left: auto;
@@ -189,7 +189,9 @@ margin-right: auto;
 }
 .preference-item {
   width: calc((100% - 72px) / 4);
-
+}
+.preference-item:last-child {
+  margin-right: 0;
 }
 .title-preference-item {
   font-weight: 500;
@@ -274,13 +276,21 @@ margin-right: auto;
   column-gap: 24px;
   row-gap: 48px;
 }
+.offers-item {
+  width: calc((100% - 48px) / 3); 
+}
+.container-card {
+  padding: 32px 16px;
+  border-left: 1px solid #E7E9FC;
+  border-right: 1px solid #E7E9FC;
+  border-bottom: 1px solid #E7E9FC;
+}
 .offers-service {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
  }
 .offers-text {
@@ -289,14 +299,9 @@ margin-right: auto;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
- margin-bottom: 32px;
 }
 
-.container-card {
-  border-left: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
-  border-bottom: 1px solid #E7E9FC;
-}
+
 
 /*============= /PORTFOLIO ==============*/
 
