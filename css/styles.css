@@ -183,16 +183,13 @@ margin-right: auto;
 /*================= OUR BENEFITS ==========*/
 .preference-list{
   display: flex;
-  padding-top: 38px;
+  flex-direction: row;
   gap: 24px;
-  row-gap: 8px;
 }
 .preference-item {
   width: calc((100% - 72px) / 4);
 }
-.preference-item:last-child {
-  margin-right: 0;
-}
+
 .title-preference-item {
   font-weight: 500;
   font-size: 20px;
@@ -258,9 +255,7 @@ margin-right: auto;
 /*============== /OUR TEAM ============*/
 
 /*============= PORTFOLIO ==============*/
-.container-offers {
-  padding: 32px 16px;
-}
+
 .title-offers {
   font-size: 36px;
   line-height: 1.11;
@@ -272,16 +267,17 @@ margin-right: auto;
 .offers-list{
   display: flex;
   flex-wrap: wrap;
+  align-content: space-between;
   max-width: 1158px;
   column-gap: 24px;
   row-gap: 48px;
 }
-.offers-item {
-  width: calc((100% - 48px) / 3); 
+.offers-item{
+  width: calc((100% - 48px) / 3);
 }
 .container-card {
-  padding: 32px 16px;
-  border-left: 1px solid #E7E9FC;
+  padding: 32px 16px; 
+ border-left: 1px solid #E7E9FC;
   border-right: 1px solid #E7E9FC;
   border-bottom: 1px solid #E7E9FC;
 }
@@ -311,11 +307,6 @@ margin-right: auto;
 .business {
   background: #2e2f42;
   padding: 100px 0;
-}
-.container-business{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 .logo-footer {
   display: inline-block;
